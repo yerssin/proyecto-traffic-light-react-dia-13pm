@@ -1,0 +1,54 @@
+#palo {
+  background-color: black;
+  width: 20px;
+  height: 100px;
+  margin-left:auto;
+  margin-right: auto;
+  
+}
+
+
+.caja {
+  background-color: black;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+
+.luz {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(17, 16, 16);
+  margin: 1em;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rojo.selected {
+  background-color: rgb(255, 0, 0);
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.rojo {
+  background-color: rgb(80, 24, 24);
+}
+.amarillo.selected {
+  background-color: yellow;
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.amarillo {
+  background-color: rgb(116, 116, 43);
+}
+
+.verde.selected {
+  background-color: rgb(116, 226, 52);
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+
+.verde {
+  background-color: rgb(26, 78, 7);
+}
